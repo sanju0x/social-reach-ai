@@ -1,0 +1,53 @@
+{
+  "name": "social-reach-ai",
+  "version": "0.1.0",
+  "description": "Public social profile checks and evidence-aware AI account advice",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "bin": {
+    "social-reach": "./bin/social-reach.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "instagram",
+    "youtube",
+    "reddit",
+    "twitter",
+    "facebook",
+    "ai",
+    "profile",
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanju0x/social-reach-ai.git"
+  },
+  "homepage": "https://github.com/sanju0x/social-reach-ai#readme",
+  "bugs": {
+    "url": "https://github.com/sanju0x/social-reach-ai/issues"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "platform": "instagram",
+  "handle": "example.creator",
+  "url": "https://www.instagram.com/example.creator/",
+  "checkedAt": "2026-11-24T00:00:00.000Z",
+  "status": "partial",
+  "profile": {
+    "displayName": "Example Creator (fictional demo)",
+    "bio": "Easy home cooking for beginners. New recipes every week.",
+    "avatar": null,
+    "professional": null
+  },
+  "metrics": {},
+  "posts": [
+    { "text": "Three easy breakfasts for busy mornings", "likes": 120, "comments": 8 },
+    { "text": "Budget dinner: one-pot vegetable rice", "likes": 175, "comments": 16 }
+  ],
+  "evidence": [
+    { "field": "profile.bio", "value": "Easy home cooking for beginners. New recipes every week.", "source": "https://www.instagram.com/example.creator/", "method": "fictional-demo-owner-input" },
+    { "field": "posts.0.text", "value": "Three easy breakfasts for busy mornings", "source": "https://www.instagram.com/example.creator/", "method": "fictional-demo-owner-input" },
+    { "field": "posts.1.text", "value": "Budget dinner: one-pot vegetable rice", "source": "https://www.instagram.com/example.creator/", "method": "fictional-demo-owner-input" }
+  ],
+  "limitations": ["Fictional demonstration data. Not a live profile.", "Two posts are too small a sample to establish a content strategy."]
+}
